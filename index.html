@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -6,120 +7,95 @@
     <meta name="keywords" content="Minhaj Chowdhury, Tech, Telegram, GitHub, Community" />
     <meta name="author" content="Minhaj Chowdhury" />
     <title>Minhaj Chowdhury | Web Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <style>
-        * {
-            box-sizing: border-box;
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
             margin: 0;
             padding: 0;
         }
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: #fff;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .container {
+            max-width: 600px;
+            margin: auto;
             padding: 2rem;
-        }
-        .card {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 2rem;
-            border-radius: 20px;
+            text-align: center;
             backdrop-filter: blur(10px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-            max-width: 700px;
-            width: 100%;
         }
         .profile-img {
             width: 140px;
             height: 140px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid #1e90ff;
             margin-bottom: 1rem;
-        }
-        h1 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 2.2rem;
+            border: 2px solid #1e90ff;
         }
         .tagline {
             font-size: 1.2rem;
-            color: #c0c0c0;
-            margin-bottom: 1.5rem;
+            color: #bbbbbb;
         }
         .link-list a {
             display: inline-block;
             margin: 0.5rem;
-            padding: 0.6rem 1.2rem;
+            padding: 0.5rem 1rem;
             background: #1e90ff;
             color: white;
             text-decoration: none;
-            border-radius: 8px;
-            transition: background 0.3s ease;
+            border-radius: 5px;
+            transition: 0.3s ease;
         }
         .link-list a:hover {
-            background: #63b3ed;
+            background: #3aa1ff;
         }
-        .section {
+        .about, .contact {
             margin-top: 2rem;
             text-align: left;
         }
-        .section h2 {
-            font-size: 1.4rem;
-            margin-bottom: 0.8rem;
-            color: #90cdf4;
-        }
         .contact-list a {
             display: inline-block;
-            margin: 0.4rem 0;
+            margin: 0.5rem 0;
             padding: 0.5rem 1rem;
             background: #444;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            transition: background 0.3s;
-        }
-        .contact-list a:hover {
-            background: #666;
         }
         footer {
-            margin-top: 2.5rem;
-            text-align: center;
+            margin-top: 3rem;
+            color: #888;
             font-size: 0.9rem;
-            color: #aaa;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <div style="text-align: center;">
-            <img src="profile.jpg" alt="Minhaj Chowdhury" class="profile-img" />
-            <h1>Minhaj <span>Chowdhury</span></h1>
-            <p class="tagline">Web Developer & Tech Learner</p>
-            <div class="link-list">
-                <a href="https://t.me/ashikxmp" target="_blank">Telegram Channel</a>
-                <a href="https://github.com/Noxashik" target="_blank">GitHub</a>
-            </div>
-        </div><div class="section">
-        <h2>About Me</h2>
-        <p>আমি মিনহাজ চৌধুরী — একজন প্রযুক্তিপ্রেমী ও ওয়েব ডেভেলপার। প্রযুক্তির প্রতিটি দিক নিয়ে জানার আগ্রহ আমাকে প্রতিনিয়ত শেখার পথে রাখে। নতুন কিছু তৈরি করা, সমস্যার সমাধান খোঁজা এবং শেয়ার করার মাঝেই আমার আনন্দ।</p>
-        <p>আমি বিশ্বাস করি, শেখার সেরা উপায় হলো শেয়ার করা। তাই আমি চেষ্টা করি আমার অভিজ্ঞতা ও জ্ঞান অন্যদের সাথে ভাগ করে নিতে। ওয়েব ডেভেলপমেন্ট, টুলস, এবং প্রযুক্তি সংক্রান্ত বিষয়গুলো নিয়ে আমি প্রতিনিয়ত কাজ করি এবং শিখতে থাকি।</p>
-        <p>ভবিষ্যতে আমি এমন একটি কমিউনিটি গড়ে তুলতে চাই যেখানে সবাই একসাথে শিখবে, বেড়ে উঠবে এবং একে অপরকে অনুপ্রাণিত করবে। আমার কাজ এবং এই পেজ তারই একটি ছোট প্রতিফলন।</p>
-    </div>
+    <div class="container">
+        <img src="https://i.postimg.cc/XY2PCDZL/profile.jpg" alt="Minhaj Chowdhury" class="profile-img" />
+        <h1>Minhaj <span>Chowdhury</span></h1>
+        <p class="tagline">Web Developer & Tech Learner</p>
 
-    <div class="section">
-        <h2>Contact Me</h2>
-        <p>যেকোনো আইডিয়া শেয়ার করতে চাইলে নিচের মাধ্যমগুলোতে যোগাযোগ করুন।</p>
-        <div class="contact-list">
-            <a href="mailto:noxashik1@gmail.com" target="_blank">Email</a><br />
-            <a href="https://t.me/ashikxmp" target="_blank">Telegram</a>
+        <div class="link-list">
+            <a href="https://t.me/ashikxmp" target="_blank">Telegram Channel</a>
+            <a href="https://github.com/Noxashik" target="_blank">GitHub</a>
         </div>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>আমি মিনহাজ চৌধুরী — একজন প্রযুক্তিপ্রেমী ও ওয়েব ডেভেলপার। প্রযুক্তির প্রতিটি দিক নিয়ে জানার আগ্রহ আমাকে প্রতিনিয়ত শেখার পথে রাখে। নতুন কিছু তৈরি করা, সমস্যার সমাধান খোঁজা এবং শেয়ার করার মাঝেই আমার আনন্দ।</p>
+            <p>আমি বিশ্বাস করি, শেখার সেরা উপায় হলো শেয়ার করা। তাই আমি চেষ্টা করি আমার অভিজ্ঞতা ও জ্ঞান অন্যদের সাথে ভাগ করে নিতে। ওয়েব ডেভেলপমেন্ট, টুলস, এবং প্রযুক্তি সংক্রান্ত বিষয়গুলো নিয়ে আমি প্রতিনিয়ত কাজ করি এবং শিখতে থাকি।</p>
+            <p>ভবিষ্যতে আমি এমন একটি কমিউনিটি গড়ে তুলতে চাই যেখানে সবাই একসাথে শিখবে, বেড়ে উঠবে এবং একে অপরকে অনুপ্রাণিত করবে। আমার কাজ এবং এই পেজ তারই একটি ছোট প্রতিফলন।</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>যেকোনো আইডিয়া শেয়ার করতে চাইলে নিচের মাধ্যমগুলোতে যোগাযোগ করুন।</p>
+            <div class="contact-list">
+                <a href="mailto:noxashik1@example.com" target="_blank">Email</a><br />
+                <a href="https://t.me/ashikxmp" target="_blank">Telegram</a>
+            </div>
+        </section>
+
+        <footer>© 2025 Minhaj Chowdhury. Built with ❤️</footer>
     </div>
-
-    <footer>© 2025 Minhaj Chowdhury. Built with ❤️</footer>
-</div>
-
 </body>
 </html>
